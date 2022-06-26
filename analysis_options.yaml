@@ -1,0 +1,17 @@
+
+include: package:flutter_lints/flutter.yaml
+# include: package:surf_lint_rules/analysis_options.yaml
+
+# Custom linter by Surf
+# analyzer:
+#   strong-mode:     
+#     implicit-casts: true
+#     implicit-dynamic: true
+
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
